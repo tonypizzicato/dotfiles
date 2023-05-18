@@ -1,0 +1,8 @@
+format='''$username$directory$git_branch$nodejs$conda
+$character'''
+
+[conda]
+ignore_base=false
+
+[git_branch]
+only_attached=false
