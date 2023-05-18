@@ -92,3 +92,45 @@ alias m3='merit-cli -datadir=/Users/tonypizzicato/dev/meritlabs/lightwallet-stac
 
 alias vs='open -a Visual\ Studio\ Code'
 
+alias rem='ssh -L 5901:localhost:5901 h1'
+alias rem2='ssh siddharth@h2.merit.capital -L 5902:localhost:5901'
+
+alias telegram='open /Applications/Telegram.app --args -scale 80'
+# ultralist
+
+alias u='ultralist'
+alias uc='ultralist l due:agenda group:context'
+alias up="ultralist l due:agenda group:project"
+alias upp="ultralist l group:project"
+alias utod='ultralist l group:project due:tod'
+alias utom='ultralist l group:project due:tom'
+alias umon='ultralist l group:project due:mon'
+alias utue='ultralist l group:project due:tue'
+alias uwed='ultralist l group:project due:wed'
+alias uthu='ultralist l group:project due:thu'
+alias ufri='ultralist l group:project due:fri'
+alias uco='ultralist l completed:tod'
+alias ua='ultralist ar c'
+
+# cd merit directories
+alias regime='cd /Users/tonypizzicato/dev/src/github.com/meritcapital/strategies/wip/regime'
+#alias strat='cd /Users/tonypizzicato/dev/src/github.com/meritcapital/strategies'
+alias strat='cd /Volumes/data/src/meritcapital/strategies'
+alias iron='cd /Users/tonypizzicato/dev/src/github.com/meritcapital/ironwing/'
+alias octo='cd /Users/tonypizzicato/dev/src/github.com/meritcapital/octonitor/'
+
+alias igr='cd /Users/tonypizzicato/dev/src/github.com/footballista/ftb-igr'
+alias api='cd /Users/tonypizzicato/dev/src/github.com/footballista/ftb-api'
+alias afl='cd /Users/tonypizzicato/dev/src/github.com/tonypizzicato/afl'
+alias luntani='cd /Users/tonypizzicato/dev/src/github.com/luntani/web-sandbox'
+alias esm='cd /Users/tonypizzicato/dev/src/gitlab.phoenixit.ru/akb-it/enterprise-service-management/'
+
+alias ul='ultralist'
+
+alias usage='du -sh * | sort -hr | head -n 10'
+
+# postgres
+alias pg_start='pg_ctl -D /opt/homebrew/var/postgres start'
+
+# start ngrok tunnel for luntani
+alias luntun='ngrok http --subdomain=luntani --region=eu 3000'

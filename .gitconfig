@@ -54,7 +54,7 @@
 	# Prevent showing files whose names contain non-ASCII symbols as unversioned.
 	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
 	precomposeunicode = false
-	editor = /usr/local/bin/vim
+	editor = /usr/bin/vim
 
 [color]
 
@@ -85,6 +85,9 @@
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
 	# gpgsign = true
+
+[pull]
+	rebase = false
 
 [diff]
 
@@ -120,3 +123,5 @@
   #sslVersion = tlsv1.0
 [gpg]
 	program = gpg1
+[init]
+	defaultBranch = master
