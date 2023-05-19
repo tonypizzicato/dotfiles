@@ -1,0 +1,15 @@
+live_config_reload: true
+
+window:
+  opacity: 0.95
+  padding:
+    x: 10
+    y: 10
+  dynamic_padding: false
+  decorations: buttonless
+
+font:
+  normal:
+    family: "SFMono Nerd Font"
+    style: Regular
+  size: 10.0
